@@ -10,9 +10,7 @@ if [[ -e "$(brew --prefix)/etc/bash_completion" ]]; then
   source $(brew --prefix)/etc/bash_completion
 fi
 
-# define the pair function
-source "$HOME/.pair"
-pair -q
-
 # define the sd function
 source '/Users/ryland/code/github/sd/sd'
+
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
