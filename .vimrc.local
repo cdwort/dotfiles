@@ -37,7 +37,8 @@ set wildmode=longest,list,full
 set wildmenu
 set dictionary-=/usr/share/dict/words dictionary+=/usr/share/dict/words
 syntax on
-color vividchalk
+set background=dark
+colorscheme vividchalk
 
 au! BufRead,BufNewFile *.rb
 au! BufRead,BufNewFile *.xml
