@@ -42,8 +42,5 @@
 	default = tracking
 [rebase]
 	autosquash = true
-[user]
-	name = Ryland Herrick
-	email = ryalnd@gmail.com
 [advice]
 	statusHints = false
