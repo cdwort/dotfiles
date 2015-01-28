@@ -24,7 +24,7 @@ set laststatus=2
 set listchars=tab:⇀\ ,trail:␠
 set list
 set hlsearch
-set ignorecase
+set noignorecase
 set matchpairs+=<:>
 set modeline
 set modelines=5
