@@ -27,7 +27,6 @@ Plugin 'slim-template/vim-slim'
 Plugin 'digitaltoad/vim-jade'
 Plugin 'wavded/vim-stylus'
 Plugin 'rylnd/vim-javascript-syntax'
-Plugin 'wting/rust'
 
 " ruby
 Plugin 'tpope/vim-endwise'
