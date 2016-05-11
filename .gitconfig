@@ -4,7 +4,9 @@
 	co = checkout
 	cp = cherry-pick
 	put = push origin HEAD
+  post = push -u origin HEAD
 	fixup = !sh -c 'git commit -m \"fixup! $(git log -1 --format='\\''%s'\\'' $@)\"' -
+  sha = rev-parse HEAD
 	squash = !sh -c 'git commit -m \"squash! $(git log -1 --format='\\''%s'\\'' $@)\"' -
 	ri = rebase --interactive
 	br = branch
@@ -44,3 +46,6 @@
 	autosquash = true
 [advice]
 	statusHints = false
+[user]
+	name = Amy Unger
+	email = amy@heroku.com
